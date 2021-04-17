@@ -1,0 +1,101 @@
+[
+    {
+        "formType": "Personal information",
+       
+        "fields": [
+            {
+                "field_id": "name.first",
+                "field_label": "First Name",
+                "field_mandatory": "yes",
+                "field_placeholder": "Enter your first name",
+                "field_type": "text",
+                "field_value": "Please enter your first name",
+                "displayOrder":"1"
+            },
+            {
+                "field_id": "name.last",
+                "field_label": "Last Name",
+                "field_mandatory": "yes",
+                "field_placeholder": "Enter your last name",
+                "field_type": "text",
+                "field_value": "Please enter your last name",
+                "displayOrder":"2"
+            },
+            {
+                "field_id": "email",
+                "field_label": "Email",
+                "field_mandatory": "yes",
+                "field_placeholder": "Enter your email",
+                "field_type": "email",
+                "displayOrder":"3"
+            },
+            {
+                "field_id": "address.street",
+                "field_label": "Street Address",
+                "field_mandatory": "yes",
+                "field_placeholder": "Enter your street address",
+                "field_type": "street address",
+                "displayOrder":"4"
+            },
+            {
+                "field_id": "state",
+                "field_label": "State of residence",
+                "field_value": "State",
+                "field_mandatory": "yes",
+                "field_options": ["Alabama","Alaska","American Samoa","Arizona","Arkansas","California","Colorado","Connecticut","Delaware","District of Columbia","Federated States of Micronesia","Florida","Georgia","Guam","Hawaii","Idaho","Illinois","Indiana","Iowa","Kansas","Kentucky","Louisiana","Maine","Marshall Islands","Maryland","Massachusetts","Michigan","Minnesota","Mississippi","Missouri","Montana","Nebraska","Nevada","New Hampshire","New Jersey","New Mexico","New York","North Carolina","North Dakota","Northern Mariana Islands","Ohio","Oklahoma","Oregon","Palau","Pennsylvania","Puerto Rico","Rhode Island","South Carolina","South Dakota","Tennessee","Texas","Utah","Vermont","Virgin Island","Virginia","Washington","West Virginia","Wisconsin","Wyoming"],
+            
+                "field_option": [
+                    {
+                        "option_label": "New Jersey"
+                    },
+                    {
+                        "option_label": "New york"
+                    }
+                ],
+                "field_type": "select",
+                "displayOrder":"5"
+            },
+            {
+                "field_id": "gender",
+                "field_label": "Gender",
+                "field_value": "Gender",
+                "field_mandatory": "yes",
+                "field_options": [
+                    {
+                        "option_label": "Male"
+                    },
+                    {
+                        "option_label": "Female"
+                    }
+                ],
+                "field_type": "select",
+                "displayOrder":"6"
+            },
+            {
+                "field_id": "street",
+                "field_label": "Street Address",
+                "field_mandatory": "yes",
+                "field_placeholder": "Enter street address",
+                "field_type": "text",
+                "displayOrder":"7"
+            },
+            {
+                "field_id": "complete_address",
+                "field_label": "I confirm all the information above is correct.",
+                "field_type": "checkbox",
+                "field_value": "checked",
+                "displayOrder":"9"
+            },
+            {
+                "field_id": "zip code",
+                "field_label": "Enter Zip Code",
+                "field_mandatory": "yes",
+                "field_placeholder": "12345",
+                "field_type": "text",
+                "displayOrder":"8"
+            }
+        ]
+    }
+    
+    
+]
